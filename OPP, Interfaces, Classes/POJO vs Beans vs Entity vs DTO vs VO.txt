@@ -1,5 +1,8 @@
 ----------------------------------------------------------------------------------------------------------------------------
-DTO - Data transfer objects are just data containers which are used to transport data between layers and tiers.
+
+DTO - Data transfer object
+
+Data transfer objects are just data containers which are used to transport data between layers and tiers.
 
 - It mainly contains attributes. You can even use public attributes without getters and setters.
 - Data transfer objects do not contain any business logic.
@@ -10,13 +13,17 @@ DTOs are often java.io.Serializable - in order to transfer data across JVM.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-VO - A Value Object [1][2] represents itself a fixed set of data and is similar to a Java enum.
+VO - Value Object
+
+A Value Object represents itself a fixed set of data and is similar to a Java enum.
 A Value Object's identity is based on their state rather than on their object identity and is immutable. 
 A real world example would be Color.RED, Color.BLUE, SEX.FEMALE etc.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-Java Beans - are reusable software components for Java that can be manipulated visually in a builder tool. 
+Java Beans
+
+Are reusable software components for Java that can be manipulated visually in a builder tool. 
 Practically, they are classes written in the Java programming language conforming to a particular convention. 
 They are used to encapsulate many objects into a single object (the bean), so that they can be passed around as 
 a single bean object instead of as multiple individual objects. A JavaBean is a Java Object that is serializable, 
@@ -33,6 +40,10 @@ state in a fashion that is independent of the VM and platform.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-Entity - refer to units of composition of the overall system data. They normally represent business objects like: bank 
+Entity
+
+Refer to units of composition of the overall system data. They normally represent business objects like: bank 
 accounts, employees, products, etc. They can be used to persist the state of the system to a database. A class that
 is mapped to table.
+
+----------------------------------------------------------------------------------------------------------------------------
