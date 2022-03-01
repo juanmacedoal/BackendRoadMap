@@ -1,0 +1,38 @@
+OOP: Object oriented programming
+
+Is about developing an application around its data, i.e. objects which provides the access to their properties
+and the possible operations in their own way.
+
+Abstraction:
+
+In Java, Data Abstraction is defined as the process of reducing the object to its essence so that only the 
+necessary characteristics are exposed to the users. Abstraction defines an object in terms of its properties
+(attributes), behavior (methods), and interfaces (means of communicating with other objects).
+
+- An Abstract class is a class whose objects can’t be created. An Abstract class is created through the use of 
+the abstract keyword. It is used to represent a concept.
+- An abstract class can have abstract methods (methods without body) as well as non-abstract methods or concrete 
+methods (methods with the body). A non-abstract class cannot have abstract methods.
+- The class has to be declared as abstract if it contains at least one abstract method.
+- An abstract class does not allow you to create objects of its type. In this case, we can only use the objects of its subclass.
+- Using an abstract class, we can achieve 0 to 100% abstraction.
+- There is always a default constructor in an abstract class, it can also have a parameterized constructor.
+- The abstract class can also contain final and static methods.
+
+The abstraction allows us to change the implementations or behavior of a class according to the need
+
+
+Encapsulation:
+
+The whole idea behind encapsulation is to hide the implementation details from users. If a data member is private it means 
+it can only be accessed within the same class. No outside class can access private data member (variable) of other class.
+
+This way data can only be accessed by public methods thus making the private fields and their implementation hidden for outside classes. 
+That’s why encapsulation is known as data hiding. Lets see an example to understand this concept better.
+
+Inheritance:
+
+- Inheritance is the mechanism by which an object acquires the some/all properties of another object.
+- It supports the concept of hierarchical classification
+
+There are five levels of inheritance: Single, Multiple, Multilevel, Hierarchical and Hybrid.
