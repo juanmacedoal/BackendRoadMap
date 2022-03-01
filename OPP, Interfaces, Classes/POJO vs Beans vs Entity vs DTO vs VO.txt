@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------------------------------
+DTO - Data transfer objects are just data containers which are used to transport data between layers and tiers.
+
+- It mainly contains attributes. You can even use public attributes without getters and setters.
+- Data transfer objects do not contain any business logic.
+
+DTO was mainly used to get data transported across the network efficiently, it may be even from JVM to another JVM.
+
+DTOs are often java.io.Serializable - in order to transfer data across JVM.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+VO - A Value Object [1][2] represents itself a fixed set of data and is similar to a Java enum.
+A Value Object's identity is based on their state rather than on their object identity and is immutable. 
+A real world example would be Color.RED, Color.BLUE, SEX.FEMALE etc.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Java Beans - are reusable software components for Java that can be manipulated visually in a builder tool. 
+Practically, they are classes written in the Java programming language conforming to a particular convention. 
+They are used to encapsulate many objects into a single object (the bean), so that they can be passed around as 
+a single bean object instead of as multiple individual objects. A JavaBean is a Java Object that is serializable, 
+has a nullary constructor, and allows access to properties using getter and setter methods.
+
+Conventions that java beans has to follow:
+
+- The class must have a public default constructor. This allows easy instantiation within editing and activation frameworks.
+- The class properties must be accessible using get, set, and other methods (so-called accessor methods and mutator methods), 
+following a standard naming convention. This allows easy automated inspection and updating of bean state within frameworks, 
+many of which include custom editors for various types of properties.
+- The class should be serializable. This allows applications and frameworks to reliably save, store, and restore the bean's 
+state in a fashion that is independent of the VM and platform.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Entity - refer to units of composition of the overall system data. They normally represent business objects like: bank 
+accounts, employees, products, etc. They can be used to persist the state of the system to a database. A class that
+is mapped to table.
