@@ -35,4 +35,4 @@ Inheritance:
 - Inheritance is the mechanism by which an object acquires the some/all properties of another object.
 - It supports the concept of hierarchical classification
 
-There are five levels of inheritance: Single, Multiple, Multilevel, Hierarchical and Hybrid.
+There are five levels of inheritance: Single, Multiple, Multilevel, Hierarchical and Hybrid: https://beginnersbook.com/2013/05/java-inheritance-types/
